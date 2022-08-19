@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --lightblack: rgb(37, 37, 37);
+    --lightblue: rgb(90, 90, 228);
+    --shadow: 2px 3px 4px 3px;
+    --lightash: rgb(168, 162, 162);
+    --offwhite: rgb(231, 227, 227);
+}
+
+.container {
+    padding: 2em 7em;
+
+}
+
+header{
+    background-color: var(--lightblack);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    color: var(--offwhite);
+}
+
+nav{
+    background-color: var(--lightblack);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--lightash);
+    margin-bottom: 70px;
+}
+
+.nav_menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 5em;
+    list-style-type: none;
+}
+
+.nav_menu a {
+    color: var(--lightash);
+    text-decoration: none;
+}
+
+.nav_menu a:hover, .nav_menu a:focus{
+    color: var(--offwhite);
+}
+
+.nav_menu a:active {
+    background-color: white;
+    color: black;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.title h2{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.title span{
+    color: gold;
+}
+
+.description {
+    color: var(--lightash);
+}
+
+button{
+    border-style: none;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+.hero_button{
+    background: var(--lightblue);
+    color: var(--offwhite);
+    margin-top: 20px;
+    
+}
+
+.hero_image{
+    opacity: 0.4;
+}
+
+.signup{
+    background-color: var(--lightblue);
+    color: var(--offwhite);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.signup_button{
+    background-color: black;
+    display: inline;
+    color: var(--offwhite);
+}
+
+.signup input {
+    height: 27px;
+    width: 20em;
+    padding-left: 10px;
+}
+
+.signup p{
+    letter-spacing: 3px;
+}
+
+.about_us{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    
+}
+
+.about_us div{
+    width: 40%;
+    text-align: center;
+    padding: 20px 50px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+
+.about_us  .a_one{
+    background-color: var(--lightblack);
+    color:var(--offwhite);
+}
+
+.about_us button{
+    background-color: blue;
+    color: white;
+    margin-top: 1em;
+}
+
+.about_us div img{
+    padding-bottom: 0%;
+}
+
+.about_us #a_two{
+    background-color: var(--lightash);
+}
+
+#img1{
+    width: 400px;
+}
+
+#funda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+}
+
+#fun {
+    padding: 2em;
+    
+}
+
+#fun p {
+    padding-top: 1em;
+    
+}
+
+#fun p button {
+    margin-top: 2em;
+}
+
+#asked hr{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#asked #p1{
+    padding: 1em;
+    background-color: rgb(167, 167, 255);
+    margin-bottom: 1em;
+    color: var(--lightblue);
+}
+
+#asked h2{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#asked p{
+    font-size: larger;
+    word-spacing: 3px;
+}
+
+#con{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+
+#con_1{
+    width: 400px;
+}
+
+#loca_img{
+    margin-left: 70%;
+}
+
+#con_1  hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#con  h2{
+    margin-bottom: 1em;
+}
+
+#con_1  #loca_img{
+    padding-left: 5em;
+    justify-content: center;
+}
+
+#inst{
+    text-align: center;
+    background-color: rgb(167, 167, 255);
+    color: var(--lightblue);
+
+}
